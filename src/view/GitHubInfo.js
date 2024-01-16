@@ -11,7 +11,7 @@ const GitHubInfo = () => {
         const response = await axios.get('https://deploy-wedding.onrender.com/github-info');
         setGithubData(response.data);
       } catch (error) {
-        console.error('Erro ao obter dados do GitHub:', error);
+        console.error('Erro ao obter dados do a:', error);
       }
     };
 
