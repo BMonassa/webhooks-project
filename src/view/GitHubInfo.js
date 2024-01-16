@@ -25,7 +25,7 @@ const GitHubInfo = () => {
       {githubData ? (
         <pre>{JSON.stringify(githubData, null, 2)}</pre>
       ) : (
-        <p>Carregando dados...</p>
+        <p>Carregando dados....</p>
       )}
     </div>
   );
